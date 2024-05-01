@@ -26,7 +26,7 @@ async function page() {
           Welcome, <span className="ml-2 font-bold">{user.firstName}! 👋</span>
         </h1>
         <h2 className="mt-4 text-center text-base text-muted-foreground">
-          Let &apos;s get started by setting up your currency
+          Let&apos;s get started by setting up your currency
         </h2>
 
         <h3 className="mt-2 text-center text-sm text-muted-foreground">
