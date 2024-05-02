@@ -1,36 +1,13 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-import { ClerkProvider } from "@clerk/nextjs";
-import RootProviders from "@/components/providers/RootProviders";
-import { Toaster } from "@/components/ui/sonner";
+import Logo from "@/components/Logo";
+import React, { ReactNode } from "react";
 
-const inter = Inter({ subsets: ["latin"] });
-
-export const metadata: Metadata = {
-  title: "Budget Tracker",
-  description: "CodeWithKliton",
-};
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+function layout({ children }: { children: ReactNode }) {
   return (
-    <ClerkProvider>
-      <html
-        lang="en"
-        className="dark"
-        style={{
-          colorScheme: "dark",
-        }}
-      >
-        <body className={inter.className}>
-          <Toaster richColors position="bottom-right" />
-          <RootProviders>{children}</RootProviders>
-        </body>
-      </html>
-    </ClerkProvider>
+    <div className="relative flex h-screen w-full flex-col items-center justify-center">
+      <Logo />
+      <div className="mt-12">{children}</div>
+    </div>
   );
 }
+
+export default layout;
