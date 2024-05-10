@@ -1,5 +1,5 @@
 # Budgetify
-## Full stack Budget Tracker: NextJs , React,Typescript ,React-Query, Prisma - SQL, Recharts, Tailwind
+## Full stack Budget Tracker: NextJs, React, Typescript , React-Query, Prisma-SQL, Recharts, TailwindCSS
 
 🛠️ Stack 
 - Nextjs 14: API routes and ServerActions
