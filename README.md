@@ -1,3 +1,28 @@
+# Budgetify
+## Full stack Budget Tracker: NextJs , React,Typescript ,React-Query, Prisma - SQL, Recharts, Tailwind
+
+🛠️ Stack 
+- Nextjs 14: API routes and ServerActions
+- Auth with Clerk
+- Typescript
+- Tailwindcss / Shadcn UI
+- SQLite / Vercel PostgreSQL
+- Prisma as ORM
+- React-query
+- Recharts
+
+📗 Features
+- Transaction Management
+- Category Statistics
+- Historical Data Aggregates
+- Stunning Charts
+- Icon Selector for Categories
+
+- 🚀 Deployment on Vercel
+- 📱 Mobile responsiveness
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
